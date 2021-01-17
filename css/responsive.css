@@ -1,0 +1,13 @@
+@media only screen and (max-height: 622px) {
+    .sticky {
+        position: static;
+    }
+}
+
+@media only screen and (min-height: 464px), (max-width: 1301px) {
+    .sticky {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
